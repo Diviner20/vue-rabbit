@@ -5,7 +5,7 @@ import httpInstance from '@/utils/http'
 export function getBannerAPI(params = {}) {
     return httpInstance({
         // 默认为1 商品为2
-        const { distributionSite = '1' } = params,
+        const :{ distributionSite = '1' } = params,
         url: '/home/banner',
         params: {
             distributionSite
@@ -41,6 +41,6 @@ export const getHotAPI = () => {
  */
 export const getGoodsAPI = () => {
     return httpInstance({
-      url: '/home/goods'
+        url: '/home/goods'
     })
-  }
+}

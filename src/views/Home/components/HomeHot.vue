@@ -1,5 +1,4 @@
 <script setup>
-
 import HomePanel from "./HomePanel.vue";
 import { getHotAPI } from "@/apis/home";
 import { ref } from "vue";
